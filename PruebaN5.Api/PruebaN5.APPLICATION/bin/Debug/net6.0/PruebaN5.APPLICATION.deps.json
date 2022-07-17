@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PruebaN5.APPLICATION/1.0.0": {
+        "dependencies": {
+          "PruebaN5.DOMAIN": "1.0.0"
+        },
+        "runtime": {
+          "PruebaN5.APPLICATION.dll": {}
+        }
+      },
+      "PruebaN5.DOMAIN/1.0.0": {
+        "runtime": {
+          "PruebaN5.DOMAIN.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PruebaN5.APPLICATION/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PruebaN5.DOMAIN/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
