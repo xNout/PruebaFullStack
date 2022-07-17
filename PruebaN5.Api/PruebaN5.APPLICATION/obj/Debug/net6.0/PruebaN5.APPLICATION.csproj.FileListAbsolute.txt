@@ -1,6 +1,5 @@
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\bin\Debug\net6.0\PruebaN5.APPLICATION.deps.json
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\bin\Debug\net6.0\PruebaN5.APPLICATION.dll
-C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\bin\Debug\net6.0\ref\PruebaN5.APPLICATION.dll
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\bin\Debug\net6.0\PruebaN5.APPLICATION.pdb
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\obj\Debug\net6.0\PruebaN5.APPLICATION.csproj.AssemblyReference.cache
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\obj\Debug\net6.0\PruebaN5.APPLICATION.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,3 +12,4 @@ C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\obj\Debug
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\bin\Debug\net6.0\PruebaN5.DOMAIN.dll
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\bin\Debug\net6.0\PruebaN5.DOMAIN.pdb
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\obj\Debug\net6.0\PruebaN5.APPLICATION.csproj.CopyComplete
+C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.APPLICATION\obj\Debug\net6.0\refint\PruebaN5.APPLICATION.dll

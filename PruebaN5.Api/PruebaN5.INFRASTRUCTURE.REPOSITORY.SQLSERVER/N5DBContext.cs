@@ -11,7 +11,11 @@ namespace PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER
 {
     public class N5DBContext : DbContext
     {
-        
+        private string? DBConnectionString;
+        public N5DBContext(string DBConnectionString)
+        {
+            this.DBConnectionString = DBConnectionString;
+        }
         public N5DBContext()
         {
         }
@@ -21,12 +25,11 @@ namespace PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER
         {
         }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    if (!optionsBuilder.IsConfigured)
-        //        optionsBuilder.UseSqlServer(configuration["DBConnectionString"]);
-            
-        //}
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+                optionsBuilder.UseSqlServer(DBConnectionString);
+        }
         public virtual DbSet<Permiso> Permisos { get; set; } = null!;
         public virtual DbSet<TipoPermiso> TipoPermisos { get; set; } = null!;
 

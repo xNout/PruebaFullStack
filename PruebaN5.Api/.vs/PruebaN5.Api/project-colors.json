@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f51da217-341a-4fcf-883d-ff4a577015e0": {
+      "ProjectGuid": "f51da217-341a-4fcf-883d-ff4a577015e0",
+      "DisplayName": "PruebaN5.Api",
+      "ColorIndex": 0
+    },
+    "4a5cba41-4a3c-4f3a-bbf4-504657a245b6": {
+      "ProjectGuid": "4a5cba41-4a3c-4f3a-bbf4-504657a245b6",
+      "DisplayName": "PruebaN5.APPLICATION",
+      "ColorIndex": 1
+    },
+    "6150ad9a-4186-4926-9f32-959ac87283a3": {
+      "ProjectGuid": "6150ad9a-4186-4926-9f32-959ac87283a3",
+      "DisplayName": "PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "2ba2a97b-3c32-4668-8aa1-77f32db02ced": {
+      "ProjectGuid": "2ba2a97b-3c32-4668-8aa1-77f32db02ced",
+      "DisplayName": "PruebaN5.DOMAIN",
+      "ColorIndex": 3
+    },
+    "8f8207b4-88ed-460a-abb2-1f6eb384e8c2": {
+      "ProjectGuid": "8f8207b4-88ed-460a-abb2-1f6eb384e8c2",
+      "DisplayName": "PruebaN5.Tests",
+      "ColorIndex": 4
+    },
+    "c4cec903-74b2-4974-bbc7-2b3ae647a3e2": {
+      "ProjectGuid": "c4cec903-74b2-4974-bbc7-2b3ae647a3e2",
+      "DisplayName": "5. Tests",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

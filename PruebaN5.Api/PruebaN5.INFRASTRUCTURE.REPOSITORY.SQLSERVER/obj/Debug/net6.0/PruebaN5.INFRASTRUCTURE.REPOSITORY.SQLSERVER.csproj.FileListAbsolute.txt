@@ -1,7 +1,6 @@
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\bin\Debug\net6.0\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.deps.json
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\bin\Debug\net6.0\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.runtimeconfig.json
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\bin\Debug\net6.0\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.dll
-C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\bin\Debug\net6.0\ref\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.dll
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\bin\Debug\net6.0\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.pdb
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\obj\Debug\net6.0\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.csproj.AssemblyReference.cache
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\obj\Debug\net6.0\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,3 +14,4 @@ C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSI
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\bin\Debug\net6.0\PruebaN5.DOMAIN.dll
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\bin\Debug\net6.0\PruebaN5.DOMAIN.pdb
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\obj\Debug\net6.0\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.csproj.CopyComplete
+C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER\obj\Debug\net6.0\refint\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.dll
