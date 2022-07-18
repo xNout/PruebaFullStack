@@ -9,6 +9,7 @@
       "PruebaN5.Api/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.7",
+          "NSwag.Annotations": "13.16.1",
           "PruebaN5.APPLICATION": "1.0.0",
           "PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -275,6 +276,14 @@
             "assetType": "runtime",
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "NSwag.Annotations/13.16.1": {
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "assemblyVersion": "13.16.1.0",
+            "fileVersion": "13.16.1.0"
           }
         }
       },
@@ -682,6 +691,13 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "NSwag.Annotations/13.16.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-enNlwk/E7V/dbd9bsNV+MQp0/bGl2gFGWYPKNQ+xaXdHjw08vWkHmHPLRoEWZK1jS6vfJtLZtd+dlg6R0c0LXQ==",
+      "path": "nswag.annotations/13.16.1",
+      "hashPath": "nswag.annotations.13.16.1.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.2.3": {
       "type": "package",

@@ -150,3 +150,4 @@ C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.Api.Tests\obj\Debug\n
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.Api.Tests\obj\Debug\net6.0\PruebaN5.Api.Tests.pdb
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.Api.Tests\obj\Debug\net6.0\PruebaN5.Api.Tests.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.Api.Tests\obj\Debug\net6.0\ref\PruebaN5.Api.Tests.dll
+C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.Api.Tests\bin\Debug\net6.0\NSwag.Annotations.dll

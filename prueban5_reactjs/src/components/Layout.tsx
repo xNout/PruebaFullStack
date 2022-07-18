@@ -87,9 +87,6 @@ class Layout extends React.Component<{ children?: React.ReactNode }>
 
                 <div className="pure-u-10-24 pure-u-sm-5-24 pure-u-md-5-24 pure-u-lg-3-24 user_options">
 
-                    <span>Hola, Adrian</span>
-                    <a className="text-dark" href="#"><i className="fas fa-sign-out-alt"></i></a>
-
                 </div>
             </div>
 
@@ -101,7 +98,7 @@ class Layout extends React.Component<{ children?: React.ReactNode }>
 
                         <Link className="item pure-u-1" to="/solicitar">
                             <div className="icono_sbmenu pure-u-3-24">
-                                <i className="fas fa-receipt"></i>
+                                <i className="fas fa-search"></i>
                             </div>
                             <div className="descp pure-u-16-24">
                                 Solicitar Permiso
@@ -110,7 +107,7 @@ class Layout extends React.Component<{ children?: React.ReactNode }>
 
                         <Link className="item pure-u-1" to="/modificar">
                             <div className="icono_sbmenu pure-u-3-24">
-                                <i className="fas fa-receipt"></i>
+                                <i className="fas fa-pen"></i>
                             </div>
                             <div className="descp pure-u-16-24">
                                 Modificar Permiso
@@ -119,7 +116,7 @@ class Layout extends React.Component<{ children?: React.ReactNode }>
 
                         <Link className="item pure-u-1" to="/">
                             <div className="icono_sbmenu pure-u-3-24">
-                            <i className="fas fa-truck"></i>
+                                <i className="fas fa-user-tag"></i>
                             </div>
                             <div className="descp pure-u-16-24">
                                 Obtener Permisos
