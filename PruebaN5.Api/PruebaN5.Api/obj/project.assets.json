@@ -392,6 +392,15 @@
           }
         }
       },
+      "NSwag.Annotations/13.16.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -1432,6 +1441,24 @@
         "version.txt"
       ]
     },
+    "NSwag.Annotations/13.16.1": {
+      "sha512": "enNlwk/E7V/dbd9bsNV+MQp0/bGl2gFGWYPKNQ+xaXdHjw08vWkHmHPLRoEWZK1jS6vfJtLZtd+dlg6R0c0LXQ==",
+      "type": "package",
+      "path": "nswag.annotations/13.16.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGetIcon.png",
+        "lib/net45/NSwag.Annotations.dll",
+        "lib/net45/NSwag.Annotations.xml",
+        "lib/netstandard1.0/NSwag.Annotations.dll",
+        "lib/netstandard1.0/NSwag.Annotations.xml",
+        "lib/netstandard2.0/NSwag.Annotations.dll",
+        "lib/netstandard2.0/NSwag.Annotations.xml",
+        "nswag.annotations.13.16.1.nupkg.sha512",
+        "nswag.annotations.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -2016,6 +2043,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.7",
+      "NSwag.Annotations >= 13.16.1",
       "PruebaN5.APPLICATION >= 1.0.0",
       "PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -2070,6 +2098,10 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.7, )"
+          },
+          "NSwag.Annotations": {
+            "target": "Package",
+            "version": "[13.16.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

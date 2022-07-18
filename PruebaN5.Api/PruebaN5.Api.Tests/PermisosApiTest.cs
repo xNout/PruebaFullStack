@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using PruebaN5.Api.Controllers;
 using PruebaN5.APPLICATION.AppService;
 using PruebaN5.APPLICATION.DTOs;
+using PruebaN5.DOMAIN.DTOs;
 using PruebaN5.DOMAIN.Entities;
 using PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER;
 using PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.Repositorys;
@@ -31,8 +32,8 @@ namespace PruebaN5.Api.Tests
 
             Assert.NotNull(result);
 
-            Assert.IsType<Permiso>(result?.Value);
-            Permiso? permiso = (Permiso?)result?.Value;
+            Assert.IsType<PermisoInfoDto>(result?.Value);
+            PermisoInfoDto? permiso = (PermisoInfoDto?)result?.Value;
             Assert.Equal(items.First(x => x.Id == 4).NombreEmpleado, permiso?.NombreEmpleado);
         }
         [Fact]
@@ -50,9 +51,9 @@ namespace PruebaN5.Api.Tests
 
             Assert.NotNull(result);
 
-            Assert.IsType<List<Permiso>>(result?.Value);
+            Assert.IsType<List<PermisoInfoDto>>(result?.Value);
 
-            List<Permiso>? permisos = (List<Permiso>?)result?.Value;
+            List<PermisoInfoDto>? permisos = (List<PermisoInfoDto>?)result?.Value;
             Assert.Equal(6, permisos?.Count);
         }
         [Fact]

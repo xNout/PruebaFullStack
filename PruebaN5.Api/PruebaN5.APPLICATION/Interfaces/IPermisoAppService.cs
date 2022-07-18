@@ -1,4 +1,5 @@
 ﻿using PruebaN5.APPLICATION.DTOs;
+using PruebaN5.DOMAIN.DTOs;
 using PruebaN5.DOMAIN.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,8 @@ namespace PruebaN5.APPLICATION.Interfaces
 {
     public interface IPermisoAppService
     {
-        Task<List<Permiso>> GetAll();
+        Task<List<PermisoInfoDto>> GetAll();
         Task<bool> Update(int Id, ModificarPermisoAppDto ModelDto);
-        Task<Permiso?> GetAsync(int id);
+        Task<PermisoInfoDto?> GetAsync(int Id);
     }
 }

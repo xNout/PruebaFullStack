@@ -1,4 +1,5 @@
-﻿using PruebaN5.DOMAIN.Entities;
+﻿using PruebaN5.DOMAIN.DTOs;
+using PruebaN5.DOMAIN.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,7 @@ namespace PruebaN5.DOMAIN.Interfaces
 {
     public interface IPermisosRepository : IRepository<Permiso>
     {
+        Task<PermisoInfoDto?> GetWithInfo(int Id);
+        Task<List<PermisoInfoDto>> GetAllWithInfo();
     }
 }

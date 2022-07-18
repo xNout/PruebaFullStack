@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5OkHQEfwpQkL31gp3AAUzY0RE6PYz7uvxEHaqBRtMozxn3l8RVXyicZcfhOr1onPs9RFdzJDmxuXUsEtb/7+aw==",
+  "dgSpecHash": "qGyERR61rP3Mow0Ezm5KaeuZH7i6UMq8tYCi4MNH/zYmuDKgbFhxAiUqlygU855wRUbMpeGwiWXvGuslF8VkXQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\PruebaN5Now\\PruebaN5.Api\\PruebaN5.Api\\PruebaN5.Api.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\nswag.annotations\\13.16.1\\nswag.annotations.13.16.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

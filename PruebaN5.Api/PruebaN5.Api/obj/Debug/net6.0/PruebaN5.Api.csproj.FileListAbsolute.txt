@@ -63,3 +63,4 @@ C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.Api\bin\Debug\net6.0\
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.Api\bin\Debug\net6.0\PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.pdb
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.Api\bin\Debug\net6.0\PruebaN5.DOMAIN.pdb
 C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.Api\obj\Debug\net6.0\refint\PruebaN5.Api.dll
+C:\Users\Usuario\Desktop\PruebaN5Now\PruebaN5.Api\PruebaN5.Api\bin\Debug\net6.0\NSwag.Annotations.dll

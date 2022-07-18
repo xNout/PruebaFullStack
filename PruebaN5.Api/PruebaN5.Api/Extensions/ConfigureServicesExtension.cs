@@ -21,6 +21,16 @@ namespace PruebaN5.Api.Extensions
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
 
+            services.AddCors(policy =>
+            {
+                policy.AddPolicy("AllowAll", builder =>
+                {
+                    builder
+                    .AllowAnyHeader()
+                    .AllowAnyOrigin()
+                    .AllowAnyMethod();
+                });
+            });
             services.AddDbContext<N5DBContext>(options => options.UseSqlServer(configuration["DBConnectionString"]));
             return services;
         }
@@ -38,6 +48,8 @@ namespace PruebaN5.Api.Extensions
             app.UseAuthorization();
 
             app.MapControllers();
+
+            app.UseCors("AllowAll");
 
             return app;
         }

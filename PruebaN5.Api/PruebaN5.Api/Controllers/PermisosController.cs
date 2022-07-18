@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PruebaN5.APPLICATION.DTOs;
 using PruebaN5.APPLICATION.Interfaces;
+using PruebaN5.DOMAIN.DTOs;
 using PruebaN5.DOMAIN.Entities;
 using PruebaN5.DOMAIN.Interfaces;
 
@@ -29,7 +30,7 @@ namespace PruebaN5.Api.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            Permiso? permiso = await permisoAppService.GetAsync(id);
+            PermisoInfoDto? permiso = await permisoAppService.GetAsync(id);
             if (permiso is null)
                 return NotFound();
 

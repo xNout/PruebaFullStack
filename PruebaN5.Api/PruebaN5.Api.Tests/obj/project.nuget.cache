@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "g8rxjdnQ+pln0+UctG6RBIBIj026LT8h0oDtJLnotOKg8vHkt/+NW6aWpC5bg102VRWK4S6jJHiDom7sSoP6tg==",
+  "dgSpecHash": "63QlBAS7ol8B+A2oeAVlh3HvHh81vFkDtJtI1cvMiMBPYWea5J3hRTjDn8msKNflVk6rNqTG9k/pyDRZO2htNQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\PruebaN5Now\\PruebaN5.Api\\PruebaN5.Api.Tests\\PruebaN5.Api.Tests.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\nswag.annotations\\13.16.1\\nswag.annotations.13.16.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

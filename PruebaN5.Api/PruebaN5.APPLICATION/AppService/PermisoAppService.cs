@@ -1,5 +1,6 @@
 ﻿using PruebaN5.APPLICATION.DTOs;
 using PruebaN5.APPLICATION.Interfaces;
+using PruebaN5.DOMAIN.DTOs;
 using PruebaN5.DOMAIN.Entities;
 using PruebaN5.DOMAIN.Interfaces;
 using System;
@@ -44,7 +45,8 @@ namespace PruebaN5.APPLICATION.AppService
                 return false;
             }
         }
-        public async Task<List<Permiso>> GetAll() => await unitOfWork.permisosRepository.GetAll();
-        public async Task<Permiso?> GetAsync(int id) => await unitOfWork.permisosRepository.GetAsync(id);
+        public async Task<PermisoInfoDto?> GetAsync(int Id) => await unitOfWork.permisosRepository.GetWithInfo(Id);
+        public async Task<List<PermisoInfoDto>> GetAll() => await unitOfWork.permisosRepository.GetAllWithInfo();
+        //public async Task<Permiso?> GetAsync(int id) => await unitOfWork.permisosRepository.GetAsync(id);
     }
 }

@@ -11,9 +11,11 @@ namespace PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.Repositorys
 {
     public class Repository<TEntity> : IDisposable, IRepository<TEntity> where TEntity : class
     {
+        protected readonly N5DBContext context;
         protected readonly DbSet<TEntity> Entity;
         public Repository(DbContext context)
         {
+            this.context = (N5DBContext)context;
             this.Entity = context.Set<TEntity>();
         }
         

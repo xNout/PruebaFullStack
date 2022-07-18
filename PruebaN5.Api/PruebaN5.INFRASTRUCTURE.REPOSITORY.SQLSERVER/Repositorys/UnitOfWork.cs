@@ -13,10 +13,12 @@ namespace PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER.Repositorys
         private readonly N5DBContext context;
         private IDbContextTransaction? transaction;
         public IPermisosRepository permisosRepository { get; }
+        public ITipoPermisoRepository tipoPermisoRepository { get; }
         public UnitOfWork(N5DBContext context)
         {
             this.context = context;
             this.permisosRepository = new PermisosRepository(context);
+            this.tipoPermisoRepository = new TipoPermisoRepository(context);
         }
         public async Task BeginTransaction()
         {

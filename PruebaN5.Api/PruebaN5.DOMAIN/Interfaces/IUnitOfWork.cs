@@ -12,6 +12,7 @@ namespace PruebaN5.DOMAIN.Interfaces
         Task CommitTransaction();
         Task RollbackTransaction();
         Task SaveChanges();
+        ITipoPermisoRepository tipoPermisoRepository { get; }
         IPermisosRepository permisosRepository { get; }
     }
 }

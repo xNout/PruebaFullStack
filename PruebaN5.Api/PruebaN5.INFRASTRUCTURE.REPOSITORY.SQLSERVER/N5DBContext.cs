@@ -23,6 +23,7 @@ namespace PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER
         public N5DBContext(DbContextOptions<N5DBContext> options)
             : base(options)
         {
+            this.ChangeTracker.LazyLoadingEnabled = false;
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -46,6 +47,7 @@ namespace PruebaN5.INFRASTRUCTURE.REPOSITORY.SQLSERVER
                 entity.Property(e => e.NombreEmpleado)
                     .HasMaxLength(100)
                     .IsUnicode(false);
+
             });
 
             modelBuilder.Entity<TipoPermiso>(entity =>
