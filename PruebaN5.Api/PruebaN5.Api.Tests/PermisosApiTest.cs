@@ -16,7 +16,7 @@ namespace PruebaN5.Api.Tests
         private readonly PermisosController controlador;
         public PermisosApiTest()
         {
-            string ConnectionString = "Data Source=45.70.14.114,444;Initial Catalog=MARDANNY_SYS;User ID=mardanny;Password=m4rd4nny123GG.;Persist Security Info=True;TrustServerCertificate=True;MultipleActiveResultSets=true;Connection Timeout=180;";
+            string ConnectionString = "";
             var context = new N5DBContext(ConnectionString);
             var unitOfWork = new UnitOfWork(context);
             var permisosService = new PermisoAppService(unitOfWork);
